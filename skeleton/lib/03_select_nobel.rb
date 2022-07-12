@@ -103,6 +103,6 @@ def nobel_johns
     FROM
       nobels
     WHERE
-      winner ILIKE 'John%'
+      winner ILIKE 'John%';
   SQL
 end
